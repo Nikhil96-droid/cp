@@ -2,11 +2,11 @@
 int main()
 {
 
-   int var2;
-   int var3;
-   printf("Enter a number %d", var2);
-   printf("Enter a number %d", var2);
-   scanf("%d and %d", &var2,&var3);
+   int var2=20;
+   int var3=90;
+   printf("Value of first variable is %d", var2);
+   printf("Value of second variable is %d", var3);
+   
    return 0;
 
 }

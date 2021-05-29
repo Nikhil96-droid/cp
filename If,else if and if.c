@@ -13,6 +13,10 @@ int main()
     {
     printf("\nYou are 18 or more than 18 you can drive gear vehicle");
     }
+    else if(age<16)
+    {
+    printf("You are under age");
+    }
     else
     {
     printf("\nSorry...");
